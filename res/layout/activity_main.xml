@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.androidapp.MainActivity" >
+
+    <Button
+        android:id="@+id/buttonPostValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="PostValue" />
+
+    <Button
+        android:id="@+id/buttonPostJson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonPostValue"
+        android:layout_below="@+id/buttonPostValue"
+        android:layout_marginTop="28dp"
+        android:text="PostJson" />
+
+    <Button
+        android:id="@+id/buttonSetImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonPostJson"
+        android:layout_below="@+id/buttonPostJson"
+        android:layout_marginTop="32dp"
+        android:text="SetImage" />
+
+    <Button
+        android:id="@+id/buttonGetImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonSetImage"
+        android:layout_below="@+id/buttonSetImage"
+        android:layout_marginTop="29dp"
+        android:text="GetImage" />
+
+</RelativeLayout>
